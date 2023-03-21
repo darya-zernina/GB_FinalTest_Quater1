@@ -3,8 +3,8 @@
 // При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 //string[] array1 = new string[4] {"Hello","2","world",":-)"};
-string[] array1 = new string[4] {"1234","1567","-2","computer science"};
-//string[] array3 = new string[3] {"Russia","Denmark","Kazan"};
+//string[] array1 = new string[4] {"1234","1567","-2","computer science"};
+string[] array1 = new string[3] {"Russia","Denmark","Kazan"};
 string[] array2 = new string[array1.Length];
 
 void SecondArrayWithIF(string[] array1, string[] array2)
@@ -24,6 +24,7 @@ void PrintArray(string[] array)
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"{array[i]} ");
+               
     }
     Console.WriteLine();
 }
